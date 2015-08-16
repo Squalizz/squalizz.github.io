@@ -1,0 +1,282 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Felice Marinaio</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+	
+	<!--Link to style sheet-->
+	<link rel="stylesheet" type="text/css" href="Format.css">
+</head> 
+
+<body> 
+	<!--Main page-->
+	<section id="home" data-role="page" data-theme="b">
+		<!--Header is used as a navigational reminder-->
+		<header data-role="header" data-position="fixed"><h2>Home</h2></header>
+
+		<!--Nav bar for easy page movement-->
+		<nav data-role="navbar">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#menu">Menu</a></li>
+			<li><a href="#info">Info</a></li>
+			<li><a href="#review">Reviews</a></li>
+		</ul>
+		</nav>
+		<!--Diaplay page content-->
+		<div class="content" data-role="content">
+			<h1>Felice Marinaio</h1>
+			
+			<!--Home page image-->
+			<img src="Images/pageHome_Dock.jpg" alt="Felice Marinaio" width="40%" height="40%">
+			
+			<p>
+				Here at Felice Marinaio, we believe that food is best enjoyed in the right atmosphere.<br /> 
+				Since 1964, when our flagship restaurant opened its doors,<br /> we have strived to provide all our guests with the best possible dining experience.
+			</p>
+			
+			<p><a href="#developer">Qualtec development</a></p>
+		</div>
+		
+		<!--Footer is used as developer signature-->
+		<footer data-role="footer" data-position="fixed"><p>Qualtec Development, &copy;2015</p><footer>
+	</section>
+	
+	<!--Menu page-->
+	<section id="menu" data-role="page" data-theme="b">
+		<!--Header is used as a navigational reminder-->
+		<header data-role="header" data-position="fixed"><h2>Menu</h2></header>
+
+		<!--Nav bar for easy page movement-->
+		<nav data-role="navbar">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#menu">Menu</a></li>
+			<li><a href="#info">Info</a></li>
+			<li><a href="#review">Reviews</a></li>
+		</ul>
+		</nav>
+		<!--Diaplay page content-->
+		<div class="content" data-role="content">
+			<h1>Menu</h1>
+			
+			<!--Catergorised list of menu items-->
+			<ul data-role="listview">
+			
+			<li>Entr&eacute;e
+				<ul>
+					<li>Garlic Bread
+						<ul>
+							<li>
+								Crusty bread served with garlic butter, parsley and basil
+							</li>
+						</ul>
+					</li>
+					<li>Cinque Formaggi
+						<ul>
+							<li>
+								"Five Cheeses", premium Italian cheese with crusty bread and stuffed olives
+							</li>
+						</ul>
+					</li>
+					<li>Minestrone
+						<ul>
+							<li>
+								Hearty beef and vegetable soup with a side of crusty bread
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			<li>Pizza
+				<ul>
+					<li>Margherita
+						<ul>
+							<li>
+								Tomato base, mixed herbs and mozzerella cheese
+							</li>
+						</ul>
+					</li>
+					<li>Capricciosa
+						<ul>
+							<li>
+								Tomato base with ham, capcicum, olives, mushroom, herbs and mozzerella cheese
+							</li>
+						</ul>
+					</li>
+					<li>Pollo e Funghi
+						<ul>
+							<li>
+								Tomato base with roast chicken, mushroom, parsley and mozzerella cheese
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			<li>Main Meals
+				<ul>
+					<li>Al forno salmone
+						<ul>
+							<li>
+								Salmon baked with lemon and fresh herbs, served atop a garden salad
+							</li>
+						</ul>
+					</li>
+					<li>Sale e pepe calamari
+						<ul>
+							<li>
+								Fresh squid cooked in a thin salt and pepper crust with a garden salad
+							</li>
+						</ul>
+					</li>
+					<li>Pollo al vino bianco
+						<ul>
+							<li>
+								Chicken slow roasted in a rich white wine sauce with roast vegetables and a garden salad
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			<li>Dessert
+				<ul>
+					<li>Tiramisu
+						<ul>
+							<li>
+								Traditional Italian coffee liquor cake
+							</li>
+						</ul>
+					</li>
+					<li>Assorted Gelato
+						<ul>
+							<li>
+								3 scoops of our premium gelato
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			</ul>
+			
+		</div>
+		
+		<!--Footer is used as developer signature-->
+		<footer data-role="footer" data-position="fixed"><p>Qualtec Development, &copy;2015</p><footer>
+	</section>
+	
+	
+	<!--Start of Information page-->
+	<section id="info" data-role="page" data-theme="b">
+		<!--Header is used as a navigational reminder-->
+		<header data-role="header" data-position="fixed"><h2>Info</h2></header>
+
+		<!--Nav bar for easy page movement-->
+		<nav data-role="navbar">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#menu">Menu</a></li>
+			<li><a href="#info">Info</a></li>
+			<li><a href="#review">Reviews</a></li>
+		</ul>
+		</nav>
+		
+		<div class="content" data-role="content">
+			<h1>Information</h1>
+			<!--General contact info-->
+			<h5>
+				Ph: 00 0000 0000<br />
+				Address: 1 Smith Street, Cranbourne, VIC, 3977.<br />
+				<br />
+				We also host functions!<br />
+			</h5>
+			
+			<!--Catering Image-->
+			<img src="Images/pageInfo_Function.jpg" alt="Function" width="40%" height="40%">
+			
+			<p>
+				Looking for a venue for your upcoming function?<br />
+				Felice Marinaio has 2 large rooms availible for hire!<br />
+				We can cater for birthdays, wedding receptions, workplace functions<br />
+				and more.<br />
+				Packages start from $1200 including a $500 bar tab and catering.<br />
+			</p>
+			
+		</div>
+		
+		<footer data-role="footer" data-position="fixed"><p>Qualtec Development, &copy;2015</p><footer>
+	</section>
+	 
+	 <!--Review page start-->
+	 <section id="review" data-role="page" data-theme="b">
+		<!--Header is used as a navigational reminder-->
+		<header data-role="header" data-position="fixed"><h2>Write a Review</h2></header>
+
+		<!--Nav bar for easy page movement-->
+		<nav data-role="navbar">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#menu">Menu</a></li>
+			<li><a href="#info">Info</a></li>
+			<li><a href="#review">Reviews</a></li>
+		</ul>
+		</nav>
+		
+		<div class="content" data-role="content">
+			<h1>We appreciate your feedback</h1>
+			
+			<!--Form for reviews-->
+			<form id="review">
+				<div data-role="fieldcontain">
+					<fieldset data-role="controlgroup">
+						<label for="userName">Username<br /></label>
+						<input type="text" name="userName" maxlength="18" />
+						<br />
+						<br />
+						<label for="reviewBody">Leave a review<br /></label>
+						<input type="text" name="reviewBody" />
+						<br />
+						<br />
+						<input type="submit" value="Submit" >
+					</fieldset>
+				</div>
+			</form>
+		</div>
+		
+		<footer data-role="footer" data-position="fixed"><p>Qualtec Development, &copy;2015</p><footer>
+	</section>
+	
+	<!--Deloper Info page-->
+	<section id="developer" data-role="page" data-theme="a">
+		<header data-role="header" data-position="fixed"><h2>Developer</h2></header>
+		
+		<nav data-role="navbar">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#menu">Menu</a></li>
+			<li><a href="#info">Info</a></li>
+			<li><a href="#review">Reviews</a></li>
+		</ul>
+		</nav>
+		
+		<div class="content" data-role="content">
+			<h1>Qualtec Development</h1>
+			<p>
+				Felice Marinaio created by Sam Qualizza for SIT313.<br />
+				This website is the authors own work,<br />all content within is used for academic purposes only.<br />
+				All images used are royalty free for commertial use.<br />
+				
+			</p>
+		</div>
+		
+	</section>
+	
+</body>
+</html>
