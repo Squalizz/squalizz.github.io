@@ -1,1 +1,0 @@
-# squalizz.github.io
